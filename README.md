@@ -1,5 +1,7 @@
 # PigCoin Wallet Generator
 
+![Logo de PigCoin](sources/pigcoin_pet.png)
+
 ## Descripción
 Este script permite generar una billetera Bitcoin (P2PKH) utilizando la librería `bitcoinlib`. También cifra la clave privada con BIP38 para mayor seguridad. Adicionalmente, el programa genera códigos QR de la dirección y clave privada, un archivo PDF con toda la información relevante y modelos 3D en formato STL que pueden ser impresos.
 
@@ -92,6 +94,11 @@ pip install bitcoinlib qrcode fpdf numpy trimesh
 │   │   ├── qr_only_xxxxxx.stl      # Modelo 3D del QR sobre una base
 └── sources/            # Carpeta con imágenes y recursos adicionales
 ```
+
+## Modelos 3D Generados
+Aquí puedes ver algunas imágenes de los modelos 3D generados:
+
+![Modelo 3D del QR sobre base](sources/3d_qr.JPG)
 
 ## Notas Finales
 Este script es útil para la generación rápida y segura de billeteras Bitcoin, con respaldo físico en PDF y modelos 3D. **Asegúrate de mantener tus claves privadas seguras y de no compartirlas con nadie.**
